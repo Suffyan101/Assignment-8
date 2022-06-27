@@ -82,3 +82,19 @@
 
 // document.write("The Weight of user: "+ c +" Kilograms")
 
+
+// Question 8 
+
+// var a = prompt("Please Select the number between 1 to 10")
+// var c = parseInt(a)
+// var b = Math.ceil(Math.random()*10)
+// console.log(b)
+// if(a=== ""){
+//     alert("Kindly insert the number")
+// }
+// else if(c === b){
+//     alert("You Win")
+// }
+// else{
+//     alert("Try Again :)")
+// }
