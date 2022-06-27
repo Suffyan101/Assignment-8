@@ -65,3 +65,20 @@
 
 // Question 7
 
+// var a  = prompt("Enter your weight in kilograms")
+// var c = ""
+// console.log(c)
+// console.log(typeof(c))
+
+
+// for(i = 0 ; i<= a.length; i++){
+//     var b = a.charCodeAt(i)
+//     if(b >= 48 && b <=57 || b === 46){
+//         c+= a[i]
+//     }
+    
+
+// }
+
+// document.write("The Weight of user: "+ c +" Kilograms")
+
