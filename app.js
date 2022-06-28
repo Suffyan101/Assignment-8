@@ -65,22 +65,19 @@
 
 // Question 7
 
-// var a  = prompt("Enter your weight in kilograms")
-// var c = ""
-// console.log(c)
-// console.log(typeof(c))
+var a  = prompt("Enter your weight in kilograms")
+var c = ""
 
-
-// for(i = 0 ; i<= a.length; i++){
-//     var b = a.charCodeAt(i)
-//     if(b >= 48 && b <=57 || b === 46){
-//         c+= a[i]
-//     }
+for(i = 0 ; i<= a.length; i++){
+    var b = a.charCodeAt(i)
+    if(b >= 48 && b <=57 || b === 46){
+        c+= a[i]
+    }
     
-
-// }
-
-// document.write("The Weight of user: "+ c +" Kilograms")
+}
+var d = parseFloat(c).toFixed(2)
+console.log(d) 
+document.write("The Weight of user: "+ d +" Kilograms")
 
 
 // Question 8 
